@@ -1,5 +1,5 @@
 body {
-  background: url("https://wallpapercave.com/wp/WsLq0uZ.jpg");
+  background-image: url("../images/mythologyBackground.jpg");
   background-size: auto;
 }
 
@@ -18,8 +18,4 @@ body {
 
 .answer {
   cursor: pointer;
-}
-
-.answer:hover {
-  background: #dddddd;
 }
