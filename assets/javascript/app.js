@@ -40,7 +40,7 @@ var questions = {
     "category": "Mythology",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "This Greek goddess&#039;s name was chosen for the dwarf planet responsible for discord on Pluto&#039;s classification amongst astronomers.",
+    "question": "This Greek goddess's name was chosen for the dwarf planet responsible for discord on Pluto's classification amongst astronomers.",
     "correct_answer": "Eris",
     "incorrect_answers": [
     "Charon",
@@ -64,7 +64,7 @@ var questions = {
     "category": "Mythology",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "Which Greek &amp; Roman god was known as the god of music, truth and prophecy, healing, the sun and light, plague, poetry, and more?",
+    "question": "Which Greek and Roman god was known as the god of music, truth and prophecy, healing, the sun and light, plague, poetry, and more?",
     "correct_answer": "Apollo",
     "incorrect_answers": [
     "Aphrodite",
@@ -136,7 +136,7 @@ var questions = {
     "category": "Mythology",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "What mythology did the god &quot;Apollo&quot; come from?",
+    "question": 'What mythology did the god "Apollo" come from?',
     "correct_answer": "Greek and Roman",
     "incorrect_answers": [
     "Roman and Spanish",
@@ -198,7 +198,7 @@ var questions = {
     "category": "Mythology",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "Neptune&#039;s greek name was...",
+    "question": "Neptune's greek name was...",
     "correct_answer": "Poseidon",
     "incorrect_answers": [
     "Ares",
@@ -234,7 +234,7 @@ var questions = {
     "category": "Mythology",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "Which of these Roman gods doesn&#039;t have a counterpart in Greek mythology?",
+    "question": "Which of these Roman gods doesn't have a counterpart in Greek mythology?",
     "correct_answer": "Janus",
     "incorrect_answers": [
     "Vulcan",
@@ -344,7 +344,7 @@ var questions = {
     "category": "Mythology",
     "type": "multiple",
     "difficulty": "hard",
-    "question": "What was the punishment for Sysiphus&#039;s craftiness?",
+    "question": "What was the punishment for Sysiphus's craftiness?",
     "correct_answer": "Cursed to roll a boulder up a hill for eternity.",
     "incorrect_answers": [
     "Tied to a boulder for eternity, being pecked by birds.",
