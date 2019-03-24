@@ -1,0 +1,25 @@
+body {
+  background: url("https://wallpapercave.com/wp/WsLq0uZ.jpg");
+  background-size: auto;
+}
+
+.cards {
+  opacity: 0.8;
+}
+
+.noMargin {
+  margin:0;
+}
+
+#timeCard {
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.answer {
+  cursor: pointer;
+}
+
+.answer:hover {
+  background: #dddddd;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Trivia Game</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/lumen/bootstrap.min.css" rel="stylesheet" integrity="sha384-iqcNtN3rj6Y1HX/R0a3zu3ngmbdwEa9qQGHdkXwSRoiE+Gj71p0UNDSm99LcXiXV" crossorigin="anonymous">
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- import the webpage's javascript file -->
+    <script src="assets/javascript/app.js" defer></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="height:50px;">
+    </nav>
+    <div class="text-center">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1>Mythology Trivia</h1>
+          <h3>Test your mythology knowledge with this trivia game!</h3>
+          <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+            <button type="button" id="newGame" class="btn btn-warning btn-lg">New Game</button>
+            <div class="btn-group" role="group">
+              <button id="btnGroupDrop4" type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+              <div class="dropdown-menu" aria-labelledby="btnGroupDrop4">
+                <a class="dropdown-item" href="#" id="easy">Easy</a>
+                <a class="dropdown-item" href="#" id="med">Medium</a>
+                <a class="dropdown-item" href="#" id="hard">Hard</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row" id="endgame">
+        <div class="col-md-12 text-center">
+          <div class="card bg-light mb-3 cards">
+            <div class="card-body">
+              <h3>Correct Answers: <span id="correct"></span></h3>
+              <h3>Incorrect Answers: <span id="incorrect"></span></h3>
+              <h4>Click the "New Game" button above to start a new game!</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="game">
+        <div class="col-md-12 text-center">
+          <div class="card bg-light mb-3 cards" id="timeCard">
+            <div class="card-body">
+              <h5 class="card-title noMargin">Time Remaining: <span id="timer"></span></h5>
+            </div>
+          </div>
+          <div class="card bg-light mb-3 cards">
+            <div class="card-body">
+              <h2 class="card-title noMargin"><span id="question">Question: </span></h2>
+            </div>
+          </div>
+          <div class="card bg-light mb-3 cards answer" id="ans1" value="1">
+            <div class="card-body answer" value="1">
+              <h4 class="card-title noMargin" value="1"><span id="opt1" value="1">Option 1: </span></h4>
+            </div>
+          </div>
+          <div class="card bg-light mb-3 cards answer" id="ans2" value="2">
+            <div class="card-body answer" value="2">
+              <h4 class="card-title noMargin" value="2"><span id="opt2" value="2">Option 2: </span></h4>
+            </div>
+          </div>
+          <div class="card bg-light mb-3 cards answer" id="ans3" value="3">
+            <div class="card-body answer" value="3">
+              <h4 class="card-title noMargin" value="3"><span id="opt3" value="3">Option 3: </span></h4>
+            </div>
+          </div>
+          <div class="card bg-light mb-3 cards answer" id="ans4" value="4">
+            <div class="card-body answer" value="4">
+              <h4 class="card-title noMargin" value="4"><span id="opt4" value="4">Option 4: </span></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
