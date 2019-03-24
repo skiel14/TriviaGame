@@ -454,34 +454,11 @@ $("#hard").on("click", function() {
 var answered = false;
 $(".answer").click(function() {
   var opt = ($(this).attr("value"));
-  if(form==0) {
-    if (opt=="1") {
-      correct++;
-    } else {
-      incorrect++;
-      showIncorrect(opt);
-    }
-  } else if(form==1) {
-    if (opt=="2") {
-      correct++;
-    } else {
-      incorrect++;
-      showIncorrect(opt);
-    }
-  } else if(form==2) {
-    if (opt=="3") {
-      correct++;
-    } else {
-      incorrect++;
-      showIncorrect(opt);
-    }
-  } else if(form==3) {
-    if (opt=="4") {
-      correct++;
-    } else {
-      incorrect++;
-      showIncorrect(opt);
-    }
+  if(opt==(form+1)) {
+    correct++;
+  } else {
+    incorrect++;
+    showIncorrect(opt);
   }
   showCorrect();
   answered = true;
