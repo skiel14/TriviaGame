@@ -641,7 +641,7 @@ function timer15() {
   function decrement() {
     number--;
     $("#timer").text(number);
-    if(answered==true){
+    if(answered){
       answered=false;
       stopTimer();
       $("#timer").empty();
